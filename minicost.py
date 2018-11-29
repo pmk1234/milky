@@ -1,6 +1,11 @@
+
+#read no of test cases in tests
 tests = int(input())
 for test in range(tests):
-	arraySize = int(input())
-	li = list(map(int,input().split()))
-    	print (min(li)*(arraySize-1))
+        #eread size of array
+        arraySize = int(input())
+        #read value of array
+        li = list(map(int,input().split()))
+        #print the minimum no of cost required for array
+        print (min(li)*(arraySize-1))
 
